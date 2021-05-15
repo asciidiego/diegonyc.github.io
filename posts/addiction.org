@@ -1,0 +1,49 @@
+* Addiction
+
+Smart people make dumb decisions.  All the time.  One expects that the
+intelligent ones would always--or more often than not--make, well,
+intelligent decisions.  Or at least, justified ones.  Yet, I see smart
+people drinking alcohol.  Myself included[fn:1].
+
+Smart is one trait out of many. Some people are smart, others are
+charismatic, and others are ahtletic. And there are some who are lucky
+enough to possess many positive traits. But, there is something
+dangerous when one (only) looks into the positive impressions of
+others.  In fact, this tendency to let positive traits of entities to
+blind us from the negative ones is pervasive that it has a name: the
+halo effect.
+
+The halo effect affects us all. Because of it, we often forget that we
+all have strength and weaknesses. Spanish people even have a proverb
+to remind themselves about this:
+
+/Ni el bueno es tan bueno, ni el malo es tan malo./
+
+
+
+* Footnotes
+
+[fn:1] It needs not be said, but... the relationship between smart
+people and drinking alcohol is a [[https://plato.stanford.edu/entries/conditionals/#TwoKinTruCon][pseudo material implication]]. That is,
+smart people (sometimes) drink alcohol. But, not all alcohol drinkers
+are smart. Society and individuals would greatly benefit from
+understanding the difference between an "if-then" statement and a
+"if-and-only-if" statement. Again, myself included.
+
+
+* References
+
+- Naval on addiction -> https://nav.al/addiction
+- The World as 100 People over the last two centuries ->
+    https://twitter.com/Altimor/status/1391546291851653121
+  - This chart gives us the perception that we are entering
+    utopia. While this might be true, and I hope so, it opens the
+    gates of a new hell for humanity. Abundance. Connotation is a
+    function of time. Sometimes can be positive and sometimes can be
+    negative. "Abundance" is a word that has positive connotations,
+    but when I think about it today I cannot help but to think about
+    massive data, attention economy, digital addiction, or obesity.
+
+    The more problems you solve, the more problems you have to
+    solve. But that is how you solve really hard problems like math or
+    world hunger.
