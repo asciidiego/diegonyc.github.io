@@ -1,0 +1,108 @@
+#+title: Notes
+#+subtitle: Kissing is hard.
+
+* Notes  
+
+  KISS (/Keep it simple stupid/) is a design principle that favors
+  simplicity over complication (complication ≠ complexity).  Achieving
+  simplicity in design is not easy.  Simple can be easy, but it can
+  also be hard---as explained by the creator of the Clojure programming
+  language[fn:1].
+
+  I tried creating a (git-based) repository as an attempt to create a
+  version-controlled knowledge base system. The system was based on
+  plain-text files. But, after trying it for days, I found that having
+  to =commit= changes often makes the note-taking process
+  cumbersome. This is not ideal; any system intended for information
+  capturing (i.e. knowledge base system) should /get out of the
+  way/. Especially if the system is for productivity purposes.
+
+  Nevertheless, alternative systems based on modern mobile
+  applications and websites are not saints either. I have tried them
+  too. They get in the way, in their own way. Notifications,
+  application updates, /spammy/ marketing emails, inexistent or
+  limited (formatting) options, excessive resource usages are a
+  fraction of the problems that current services have. All of these
+  are problems present in many current tools.
+
+  While there are systems that seem to be good enough, such as Google
+  Calendar and Google Tasks, they make you dependent on the company
+  that made them---or worse, an addict on the product itself. This is
+  dangerous, not only because it messes with the dopamine receptors in
+  your brain, but because it could drive you away from your original
+  mission: focus and mindfulness.
+
+  If there is anything that I have learned from software engineering
+  and personal relationships is that you do not want to become too
+  dependent on people or things.
+
+  The productivity status quo is that you either need to [[https://www.google.com/calendar/about/][depend on a
+  third-party]], you have to use complex solutions, your toolbox is
+  limited, or all three at the same time. What's fascinating is that
+  during the personal computer revolution many tools that solve most
+  of our problems were invented (and they are free!).
+
+  I get why people would go so far to use (and advocate) for current
+  tools that depend on having a smartphone (sometimes with
+  /high-speed/ mandatory Internet access). Even if those tools clearly
+  limit them. Because using those tools is /easy/. Making things easy
+  is a way of making something that people want. Thus, a way to make
+  money. That is what Amazon did to buying online, Coinbase to buying
+  cryptocurrencies, and Shopify to create an online business. This is
+  why these companies are drowning in fiat now.
+
+  Some people would argue that some tools make them /effective/. But,
+  these very same people were as effective---if not more---when they
+  used paper-based agendas in school as kids. They needn't Asana,
+  Trello, or Notion. Only pencil and paper.
+
+  Big achievers are known for their fond relationship with
+  simplicity. For example, Paul Graham, arguably one of the best
+  investors in the Silicon Valley area is known to use =vi= for, well,
+  everything[fn:2]. Most would disregard this argument since Paul
+  Graham is a hacker and, thus, knows how to use computers. Heck, he
+  even knows how to hack them so that they kneel before his
+  will. Leonardo Da Vinci once said that /simplicity is the ultimate
+  sophistication/; Mies said /less is more/. Many other variants from
+  other extraordinary individuals are available in the [[*Variants][Variants]]
+  section.
+
+  Nonetheless, I do not need to go that far to see the greatness in
+  simplicity. My first boss made a living creating virtual spaces for
+  architects. He did an outstanding job and, while everybody may not
+  have enjoyed working with him, everybody loved his works. The funny
+  thing is that most of his works was made of boxes and lines. If you
+  have ever used a 3D modeling and rendering software, you will
+  immediately notice that there will be many primitives that you can
+  use. Spheres, tubes, geo-spheres, cones, pyramids, etc. And that's
+  only standard 3D primitives. Yet, here was a man who made a living
+  based in 2021 using mainly boxes and lines[fn:3]. Primitives that
+  were available since the initial release of the software in 1996.
+
+  To be honest, I still think that plain-text files and =git= are a
+  great idea. I believe these two /lego/ pieces can be used to create
+  a marvelous note-taking and planning system and more. I just need to
+  figure out how.
+
+  For now, however, I will be using a simple local folder with =.org=
+  files (no version control) and evolve from there.
+
+* Variants
+
+  Variants of the KISS principle by many authors:
+
+  - Bjarne Stroustrup → /Make Simple Tasks Simple/
+  - Albert Einstein (allegedly) → /Make everything as simple as
+    possible, but not simpler/
+
+  Corollary of the KISS principle and its variants: /do not make Rube
+  Goldberg machines/.
+
+* Footnotes
+
+[fn:3] In the particular software that he was using, 3ds max, /lines/
+were named after the mathematical functions named /splines/.
+
+[fn:2] [[https://twitter.com/paulg/status/1381948532421226500][Just run =fmt= bro]] 
+
+[fn:1] [[https://www.youtube.com/watch?v=oytL881p-nQ][Simple Made Easy]]
