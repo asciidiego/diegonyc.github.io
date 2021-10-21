@@ -18,7 +18,18 @@
   |------------------+---------------|
   | <2021-05-20 Thu> | Base position |
   
-** Metrics
-  | Date             | Points | Words per min | Error rate | Mistakes | Signs |
-  | <2021-05-20 Thu> |    502 |          55.6 |      3.96% |       22 |   556 |
+** Metrics (2-min tests)
+   Table that look at words-per-minute along other metrics.
+
+   
+  | Date                   |  WPM | Points | Error rate | Mistakes | Signs |
+  | <2021-05-20 Thu>       | 55.6 |    502 |      3.96% |       22 |   556 |
+  | <2021-05-20 Thu 18:57> |   77 |    667 |      4.68% |       36 |   770 |
+  | <2021-05-23 Sun 20:11> |   82 |    672 |      5.62% |       46 |   819 |
+  | <2021-05-23 Sun 20:14> | 87.2 |    779 |      4.13% |       36 |   872 |
+  | <2021-05-23 Sun 20:22> | 85.6 |    847 |      2.22% |       19 |   856 |
+  | <2021-05-23 Sun 20:29> |   86 |    826 |      2.79% |       24 |   859 |
+  | <2021-05-23 Sun 20:40> | 86.4 |      - |      2.66% |       23 |   864 |
+
+
   
