@@ -38,33 +38,24 @@ People glued to their phones; not putting much effort into finding a partner by
 going on online dates. Is a disciplined mind a free one? Based on my experience
 of over-enjoying the abundance of modern world amenities, I think it is.
 
-
-
-
-
 * Footnotes
-
-[fn:1] It needs not be said, but... the relationship between smart
-people and drinking alcohol is a [[https://plato.stanford.edu/entries/conditionals/#TwoKinTruCon][pseudo material implication]]. That is,
-smart people (sometimes) drink alcohol. But, not all alcohol drinkers
-are smart. Society and individuals would greatly benefit from
-understanding the difference between an "if-then" statement and a
-"if-and-only-if" statement. Again, myself included.
-
+[fn:1] It needs not be said, but... the relationship between smart people and
+drinking alcohol is a [[https://plato.stanford.edu/entries/conditionals/#TwoKinTruCon][pseudo material implication]]. That is, smart people
+(sometimes) drink alcohol. But, not all alcohol drinkers are smart. Society and
+individuals would greatly benefit from understanding the difference between an
+"if-then" statement and a "if-and-only-if" statement. Again, myself included.
 
 * References
 
 - Naval on addiction -> https://nav.al/addiction
 - The World as 100 People over the last two centuries ->
-    https://twitter.com/Altimor/status/1391546291851653121
-  - This chart gives us the perception that we are entering
-    utopia. While this might be true, and I hope so, it opens the
-    gates of a new hell for humanity. Abundance. Connotation is a
-    function of time. Sometimes can be positive and sometimes can be
-    negative. "Abundance" is a word that has positive connotations,
-    but when I think about it today I cannot help but to think about
-    massive data, attention economy, digital addiction, or obesity.
+  https://twitter.com/Altimor/status/1391546291851653121
+  - This chart gives us the perception that we are entering utopia. While this
+    might be true, and I hope so, it opens the gates of a new hell for humanity.
+    Abundance. Connotation is a function of time. Sometimes can be positive and
+    sometimes can be negative. "Abundance" is a word that has positive
+    connotations, but when I think about it today I cannot help but to think
+    about massive data, attention economy, digital addiction, or obesity.
 
-    The more problems you solve, the more problems you have to
-    solve. But that is how you solve really hard problems like math or
-    world hunger.
+    The more problems you solve, the more problems you have to solve. But that
+    is how you solve really hard problems like math or world hunger.
