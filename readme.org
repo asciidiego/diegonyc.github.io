@@ -1,0 +1,16 @@
+#+TITLE: README
+#+SUBTITLE: Using a lisp dialect to build a website using only plain text files
+#+AUTHOR: Diego Rodriguez
+
+* Overview
+Building a website from scratch. Why? **Fun**.
+* Objectives
+Be able to follow this flow:
+
+1. Write post using the =.org= file format.
+2. Upload to remote repository using =git=.
+3. Using Github Actions (or any other CI/CD platform such as Gitlab) to
+   automatically build a website using a, preferrably, lisp dialect such as
+   Clojure.
+   a. Bonus points if I make the website builder myself!
+4. Wait and see the website posted. All automatically after step [2].
