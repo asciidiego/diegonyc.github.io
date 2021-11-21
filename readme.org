@@ -3,7 +3,7 @@
 #+AUTHOR: Diego Rodriguez
 
 * Overview
-Building a website from scratch. Why? **Fun**.
+Building a website from scratch. Why? *Fun*.
 * Objectives
 Be able to follow this flow:
 
