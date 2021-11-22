@@ -88,12 +88,12 @@ Let us imagine the following graph G for our solution.
 
 #+BEGIN_SRC dot :file first_binary_tree.svg :cmdline -Tsvg -Nshape=circle -Nfontname=Helvetica
 graph G {
-    10 -- 5;
-    5 -- 3;
-    5 -- 4;
-    10 -- 7;
-    7 -- 6;
-    7 -- 9;
+    10 --  5;
+     5 --  3;
+     5 --  4;
+    10 -- 17;
+    17 -- 16;
+    17 -- 19;
 }
 #+END_SRC
 
@@ -145,7 +145,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-raw_binary_tree = [10, 5, 7, 3, 4, 6, 9]
+raw_binary_tree = [10, 5, 17, 3, 4, 16, 19]
 def generate_bts_from_array(storage: list[int], root, i, n) -> TreeNode:
     """Return the root node of the generated BTS."""
     if i < n:
@@ -176,14 +176,13 @@ def sum_from_binary_tree_search(root: Optional[TreeNode], low: int, high: int) -
                 stack.append(node.right)
         return accum
 
+assert sum_from_binary_tree_search(root, 0, 1000) == sum(raw_binary_tree)
 print("Total sum of the graph: ", sum(raw_binary_tree))
 print("Sum for nodes with values between [3, 5]: ", sum_from_binary_tree_search(root, 3, 5))
 #+end_src
 
 #+RESULTS:
-#+begin_export latex
-Total sum of the graph:  44
-Sum for nodes with values between [3, 5]:  12
-#+end_export
+: Total sum of the graph:  74
+: Sum for nodes with values between [3, 5]:  12
 
 #  LocalWords:  LeetCode
