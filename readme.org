@@ -3,14 +3,14 @@
 #+AUTHOR: Diego Rodriguez
 
 * Overview
-Building a website from scratch. Why? *Fun*.
-* Objectives
-Be able to follow this flow:
+Building a website using Clojure. Why? Why not?
 
-1. Write post using the =.org= file format.
-2. Upload to remote repository using =git=.
-3. Using Github Actions (or any other CI/CD platform such as Gitlab) to
-   automatically build a website using a, preferrably, lisp dialect such as
-   Clojure.
-   a. Bonus points if I make the website builder myself!
-4. Wait and see the website posted. All automatically after step [2].
+* Usage
+
+Use this command:
+
+#+begin_src bash
+
+clj -M --main cljs.main --compile www.core --repl
+
+#+end_src
