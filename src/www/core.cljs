@@ -1,8 +1,9 @@
 (ns www.core
   (:require react-dom))
 
-(def container (.getElementById js/document "app"))
-(def root (.createRoot js/ReactDOM container))
-(def title (.createElement js/React "h1" nil "Hello, React. This is Clojure"))
+(def container (.createRoot js/ReactDOM
+                            (.getElementById js/document "app")))
 
-(.render root title)
+(def title (.createElement js/React "h1" nil "Hello world"))
+
+(.render container title)
