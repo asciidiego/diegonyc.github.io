@@ -1,12 +1,15 @@
-#+title: Addiction
-#+author: Diego Rodriguez
++++
+title = "Addiction"
+author = ["Diego Rodriguez"]
+draft = false
++++
 
-* Addiction
+## Addiction {#addiction}
 
 Smart people make dumb decisions. All the time. One expects that the intelligent
 ones would always---or more often than not---make, well, intelligent decisions.
 Or at least, justified ones. Yet, I see smart people make dumb decisions all the
-time. At least I make dumb decisions all the time[fn:1]. But, just like having
+time. At least I make dumb decisions all the time[^fn:1]. But, just like having
 bad health makes us appreciate our wellness more, dumb decisions make us think
 more deeply about life. And, to me, anything that makes me reflect on my actions
 and on life itself can't be that bad. However, there is a subset of dumb
@@ -21,7 +24,7 @@ effect. The halo effect affects us all. Because of it, we often forget that we
 all have strength and weaknesses. Spanish people even have a proverb to remind
 themselves about this:
 
-/Ni el bueno es tan bueno, ni el malo es tan malo./
+_Ni el bueno es tan bueno, ni el malo es tan malo._
 
 Thus, you should try your best to not let the halo around smart people blind
 you. It is a halo, not a shield. It does not protect them---or anyone around
@@ -41,24 +44,24 @@ People glued to their phones; not putting much effort into finding a partner by
 going on online dates. Is a disciplined mind a free one? Based on my experience
 of over-enjoying the abundance of modern world amenities, I think it is.
 
-* Footnotes
-[fn:1] It needs not be said, but... the relationship between smart people and
-drinking alcohol is a [[https://plato.stanford.edu/entries/conditionals/#TwoKinTruCon][pseudo material implication]]. That is, smart people
-(sometimes) drink alcohol. But, not all alcohol drinkers are smart. Society and
-individuals would greatly benefit from understanding the difference between an
-"if-then" statement and a "if-and-only-if" statement. Again, myself included.
 
-* References
+## References {#references}
 
-- Naval on addiction -> https://nav.al/addiction
-- The World as 100 People over the last two centuries ->
-  https://twitter.com/Altimor/status/1391546291851653121
-  - This chart gives us the perception that we are entering utopia. While this
-    might be true, and I hope so, it opens the gates of a new hell for humanity.
-    Abundance. Connotation is a function of time. Sometimes can be positive and
-    sometimes can be negative. "Abundance" is a word that has positive
-    connotations, but when I think about it today I cannot help but to think
-    about massive data, attention economy, digital addiction, or obesity.
+-   Naval on addiction -&gt; <https://nav.al/addiction>
+-   The World as 100 People over the last two centuries -&gt;
+    <https://twitter.com/Altimor/status/1391546291851653121>
+    -   This chart gives us the perception that we are entering utopia. While this
+        might be true, and I hope so, it opens the gates of a new hell for humanity.
+        Abundance. Connotation is a function of time. Sometimes can be positive and
+        sometimes can be negative. "Abundance" is a word that has positive
+        connotations, but when I think about it today I cannot help but to think
+        about massive data, attention economy, digital addiction, or obesity.
 
-    The more problems you solve, the more problems you have to solve. But that
-    is how you solve really hard problems like math or world hunger.
+        The more problems you solve, the more problems you have to solve. But that
+        is how you solve really hard problems like math or world hunger.
+
+[^fn:1]: It needs not be said, but... the relationship between smart people and
+    drinking alcohol is a [pseudo material implication](https://plato.stanford.edu/entries/conditionals/#TwoKinTruCon). That is, smart people
+    (sometimes) drink alcohol. But, not all alcohol drinkers are smart. Society and
+    individuals would greatly benefit from understanding the difference between an
+    "if-then" statement and a "if-and-only-if" statement. Again, myself included.

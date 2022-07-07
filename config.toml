@@ -1,0 +1,4 @@
+baseURL = 'https://diego.computer/'
+languageCode = 'en-us'
+title = '>> diego'
+theme = "terminal"

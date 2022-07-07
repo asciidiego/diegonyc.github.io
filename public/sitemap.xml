@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/posts/addiction/</loc>
+  </url><url>
+    <loc>http://example.org/posts/algorithms/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/posts/creators-block/</loc>
+  </url><url>
+    <loc>http://example.org/posts/kissing-is-hard/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
+  </url><url>
+    <loc>http://example.org/posts/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/posts/the-pains-of-learning/</loc>
+  </url>
+</urlset>

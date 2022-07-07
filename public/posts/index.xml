@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Addiction</title>
+      <link>http://example.org/posts/addiction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/addiction/</guid>
+      <description>Addiction Smart people make dumb decisions. All the time. One expects that the intelligent ones would always&amp;mdash;or more often than not&amp;mdash;make, well, intelligent decisions. Or at least, justified ones. Yet, I see smart people make dumb decisions all the time. At least I make dumb decisions all the time1. But, just like having bad health makes us appreciate our wellness more, dumb decisions make us think more deeply about life. And, to me, anything that makes me reflect on my actions and on life itself can&amp;rsquo;t be that bad.</description>
+    </item>
+    
+    <item>
+      <title>Algorithms Analysis</title>
+      <link>http://example.org/posts/algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/algorithms/</guid>
+      <description>Introduction While a part of me does not like the process in which many students go through LeetCode to land an internship or a full-time position at a company, I think solving problems and writing about them is fun. Besides, lately I have been trying to live more like my role models. In particular, Leonardo Da Vinci and Richard Feynman.
+One of the things that I love about them is their insatiability for deep knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Creator&#39;s Block</title>
+      <link>http://example.org/posts/creators-block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/creators-block/</guid>
+      <description>For days I have felt blocked; and I know that, in these cases, the best thing you can do is to create non-stop. I thought about this some days ago. Then I decided to write an essay about it. After all, if you feel a certain way, you can be confident that others feel that way too&amp;mdash;this is Being Human 1011. The creative forces that drive your mind are not immune to Newton&amp;rsquo;s laws of motion&amp;mdash;especially the first one 2.</description>
+    </item>
+    
+    <item>
+      <title>Kissing is hard.</title>
+      <link>http://example.org/posts/kissing-is-hard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/kissing-is-hard/</guid>
+      <description>Notes KISS (Keep it simple stupid) is a design principle that favors simplicity over complication (complication ≠ complexity). Achieving simplicity in design is not easy. Simple can be easy, but it can also be hard&amp;mdash;as explained by the creator of the Clojure programming language1.
+I tried creating a (git-based) repository as an attempt to create a version-controlled knowledge base system. The system was based on plain-text files. But, after trying it for days, I found that having to commit changes often makes the note-taking process cumbersome.</description>
+    </item>
+    
+    <item>
+      <title>The Pains of Learning</title>
+      <link>http://example.org/posts/the-pains-of-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/the-pains-of-learning/</guid>
+      <description>Pain I am writing this because I am learning programming. I find it hard and frustrating, but I tell myself not to worry&amp;mdash;as learning any skill has a dose of pain and frustration. It comes with the territory.
+Learning is hard because it means taking the conscious decision of walking along a painful path. This is not only hard because of the hardships that we will unavoidably find along the way; but because we decided to do it and so there is no one to blame but ourselves when we face a challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

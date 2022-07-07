@@ -1,0 +1,137 @@
++++
+title = "Kissing is hard."
+author = ["Diego Rodriguez"]
+draft = false
++++
+
+## Notes {#notes}
+
+KISS (_Keep it simple stupid_) is a design principle that favors simplicity
+over complication (complication ≠ complexity). Achieving simplicity in design
+is not easy. Simple can be easy, but it can also be hard---as explained by the
+creator of the Clojure programming language[^fn:1].
+
+I tried creating a (git-based) repository as an attempt to create a
+version-controlled knowledge base system. The system was based on plain-text
+files. But, after trying it for days, I found that having to `commit` changes
+often makes the note-taking process cumbersome. This is not ideal; any system
+intended for information capturing (i.e. knowledge base system) should _get
+out of the way_. Especially if the system is for productivity purposes.
+
+Nevertheless, alternative systems based on modern mobile applications and
+websites are not saints either. I have tried them too. They get in the way, in
+their own way. Notifications, application updates, _spammy_ marketing emails,
+in existent or limited (formatting) options, excessive resource usages, etc.
+are all fraction of the problems that current services have. All of these are
+problems present in many current tools.
+
+While there are systems that seem to be good enough, such as Google Calendar
+and Google Tasks, they make you dependent on the company that made them---or
+worse, an addict on the product itself. This is dangerous, not only because it
+messes with the dopamine receptors in your brain, but because it could drive
+you away from your original mission: focus and mindfulness. But also, since
+their code is not open-source, adding features you want is unnecessarily
+harder. Of course, some might argue that this is something that only us---the
+computer literates---should worry about. Everyone else should just use what
+companies give them. I think the approach is wrong. We are living the
+transition to the Information Age. Just like in the past we transitioned to a
+better society and people learned to read, write, and do math; it is time for
+us to learn to read, write, and do code. Even Steve Jobs thought this. He was
+a visionary not only in the business realm.
+
+If there is anything that I have learned from software engineering and
+personal relationships is that, sometimes, you do not want to become too
+dependent on certain software or certain people. And if you do, make sure you
+_really_ trust them.
+
+The tech industry status quo is that you either need to [depend on a
+third-party](https://www.google.com/calendar/about/), you have to use complex solutions, or both at the same time.
+What's fascinating is that during the personal computer revolution many tools
+that solve most of our problems were invented (and they are free!). In fact,
+once I used a 1980s tool to solve a OCR problem for a company. Most of the
+work was integrating with a modern AWS-based workflow. In that case, I
+depended on software that passed the test of time and, like with friendships,
+I tend to trust you way more if you've been loyal and accountable for decades
+rather than months.
+
+I get why people would go so far to use (and advocate) for current tools that
+depend on having a smartphone (sometimes with _high-speed_ mandatory Internet
+access). Even if those tools clearly limit them. Because using those tools is
+_easy_. Making things easy is a way of making something that people want.
+Thus, a way to make money. That is what Amazon did to buying online, Coinbase
+to buying cryptocurrencies, and Shopify to build an online business. This is
+why these companies are drowning in fiat, or even crypto, now.
+
+Some people would argue that some tools make them _effective_. But, these very
+same people were as effective---if not more---when they used paper-based
+agendas in school as kids. They needn't Asana, Trello, or Notion. Only pencil
+and paper. And the role models they idolize work that way too. I agree with
+Steve in that the computer is supposed to be a bycicle for the mind. It is not
+supposed to be an elevator.
+
+Big achievers are known for their fond relationship with simplicity. For
+example, Paul Graham, arguably one of the best investors in the Silicon Valley
+area is known to use `vi` for, well, everything[^fn:2]. Most would disregard
+this argument since Paul Graham is a hacker and, thus, knows how to use
+computers. There is truth to both sides of the argument. I find it hard to
+explain it better than Alan Kay on his paper "The Power of Context":
+
+>
+>
+> Thus, virtually all the PARC hardware---including two big time-sharing main
+> frames, the Altos, Ethernet, Laserprinter, file storage, and the systems
+> that followed---and software---including operating systems, programming
+> languages and development systems, productivity tools, etc.---were
+> completely built inhouse by these few dozen researchers.
+>
+> This sounds disastrous, but there is an important collection of theories in
+> which the 1st order version and the 2nd order version are completely
+> different yet both are true. For example, in programming there is a
+> wide-spread 1st order theory that one shouldn't build one's own tools,
+> languages, and especially operating systems. This is true—an incredible
+> amount of time and energy has gone down these ratholes. On the 2nd hand, if
+> you can build your own tools, languages and operating systems, then you
+> absolutely should because the leverage that can be obtained (and often the
+> time not wasted in trying to fix other people's not quite right tools) can
+> be incredible.
+>
+> ---Alan Kay
+
+Leonardo Da Vinci once said that _simplicity is the ultimate sophistication_;
+Ludwig Mies van der Rohe said _less is more_. Many other variants from other
+extraordinary individuals are available in the [Variants](#variants) section.
+
+Nonetheless, I do not need to go that far to see the greatness in simplicity.
+My first boss made a living creating virtual spaces for architects. He did an
+outstanding job and, while everybody may not have enjoyed working with him,
+everybody loved his works. The funny thing is that most of his works was made
+of boxes and lines. If you have ever used a 3D modeling and rendering
+software, you will immediately notice that there will be many primitives that
+you can use. Spheres, tubes, geo-spheres, cones, pyramids, etc. And that's
+only standard 3D primitives. Yet, here was a man who made a living based in
+2021 using mainly boxes and lines[^fn:3]. Primitives that were available since
+the initial release of the software in 1996.
+
+To be honest, I still think that plain-text files and `git` are a great idea.
+I believe these two _lego_ pieces can be used to create a marvelous
+note-taking and planning system and more. I just need to figure out how.
+
+For now, however, I will be using a simple local folder with `.org` files (no
+version control) and evolve from there.
+
+
+## Variants {#variants}
+
+Variants of the KISS principle by many authors:
+
+-   Bjarne Stroustrup → _Make Simple Tasks Simple_
+-   Albert Einstein (allegedly) → _Make everything as simple as possible, but
+    not simpler_
+
+Corollary of the KISS principle and its variants: _do not make Rube Goldberg
+machines_.
+
+[^fn:1]: [Simple Made Easy](https://www.youtube.com/watch?v=oytL881p-nQ)
+[^fn:2]: [Just run `fmt` bro](https://twitter.com/paulg/status/1381948532421226500)
+[^fn:3]: In the particular software that he was using, 3ds max, _lines_ were named
+    after the mathematical functions named _splines_.
