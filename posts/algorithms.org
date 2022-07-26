@@ -1,6 +1,7 @@
 #+TITLE: Algorithms Analysis
 #+SUBTITLE: LeetCode Algorithm Analysis
 #+AUTHOR: Diego Rodriguez
+#+DATE: <2021-11-22 Mon>
 
 * Introduction
 While a part of me does not like the process in which many students go through

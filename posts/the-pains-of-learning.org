@@ -1,5 +1,6 @@
 #+title: The Pains of Learning
 #+author: Diego Rodriguez
+#+date: <2021-05-23 Sun>
 
 * Pain
 
