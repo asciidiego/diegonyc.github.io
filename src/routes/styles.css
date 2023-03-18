@@ -5,6 +5,8 @@
 h1 {
 	font-family: 'Apple Garamond', sans-serif;
 	font-size: 2em;
+	/* Adjust kerning */
+	letter-spacing: 0.02em;
 }
 
 body {
