@@ -4,7 +4,7 @@
 
 <div class="container">
 	<header>
-		<h1>Diego Rodríguez</h1>
+		<h1>Diego Rodriguez</h1>
 	</header>
 
 	<main>
@@ -40,12 +40,18 @@
 		</p>
 
 		<p>That's what I do.</p>
+
+		<hr />
+
+		<p>
+			I currently live in California and work at
+			<a href="https://www.twitter.com/krea_ai" target="_blank">KREA</a>.
+		</p>
 	</main>
 
 	<aside>
 		<ul>
 			<li><a href="https://twitter.com/asciidiego" target="_blank">Twitter</a></li>
-			<li><a href="http://linkedin.com/in/asciidiego" target="_blank">LinkedIn</a></li>
 		</ul>
 	</aside>
 </div>
