@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Diego Rodriguez</h1>
+
+<hr />
+
+<ul>
+	<li><a href="https://twitter.com/asciidiego" target="_blank">Twitter</a></li>
+	<li><a href="http://linkedin.com/in/asciidiego" target="_blank">LinkedIn</a></li>
+</ul>
