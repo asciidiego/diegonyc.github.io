@@ -1,0 +1,15 @@
+/* Use Apple Garamond font */
+@import url('https://fonts.cdnfonts.com/css/apple-garamond');
+@import url('https://fonts.cdnfonts.com/css/garamond');
+
+h1 {
+	font-family: 'Apple Garamond', sans-serif;
+	font-size: 2em;
+}
+
+body {
+  /* Around 80 characters per line */
+	max-width: 80ch;
+	font-family: 'Garamond', sans-serif;
+	font-size: 1em;
+}
