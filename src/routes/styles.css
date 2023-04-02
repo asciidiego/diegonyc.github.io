@@ -3,7 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/garamond');
 
 h1 {
-	font-family: 'Apple Garamond', sans-serif;
+	font-family: 'Apple Garamond', 'Georgia', sans-serif;
 	font-size: 2em;
 	/* Adjust kerning */
 	letter-spacing: 0.02em;
@@ -12,6 +12,6 @@ h1 {
 body {
   /* Around 80 characters per line */
 	max-width: 80ch;
-	font-family: 'Garamond', sans-serif;
+	font-family: 'Garamond', 'Georgia', sans-serif;
 	font-size: 1em;
 }
