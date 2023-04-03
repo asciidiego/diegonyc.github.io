@@ -20,9 +20,7 @@
 		{#each routes as route (route.id)}
 			<li>
 				{#if $page.route.id === route.id}
-					<span style="font-weight: bold">
-						{route.title}
-					</span>
+					{route.title}
 				{:else}
 					<a href={route.id}>{route.title}</a>
 				{/if}
@@ -44,8 +42,17 @@
 		gap: 1em;
 	}
 
+	li {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
 	li a {
-		color: inherit;
+		color: #00000066;
 		text-decoration: none;
+	}
+
+	li a:hover {
+		text-decoration: underline;
 	}
 </style>
