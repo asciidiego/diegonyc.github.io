@@ -1,1 +1,1 @@
-export const PUBLISHED_ESSAYS_PATHS = ['/essays/hello-world.org'];
+export const PUBLISHED_ESSAYS_PATHS = ['/essays/noise.org'];
