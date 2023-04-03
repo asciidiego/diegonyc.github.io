@@ -11,8 +11,8 @@ type Essay = {
 	source: string;
 };
 
-// export const ssr = true;
-// export const prerender = true;
+export const ssr = true;
+export const prerender = true;
 export const load: PageServerLoad = async ({ params, fetch }) => {
 	let essays: Essay[] = [];
 	console.log(PUBLISHED_ESSAYS_PATHS);
