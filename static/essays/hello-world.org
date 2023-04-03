@@ -5,10 +5,11 @@ led to abundance. But, there was a catch: the abundance paradox.
 
 The paradox is that even though anyone can talk to everyone, it is
 harder to find anyone worth paying attention to. This is why kids get
-lost in crowds. Even though they know exactly how their parents look
-like, it only takes a few minutes of distraction and noise and they do
-not know where they are. And just like in that analogy, it can lead to
-terrifying outcomes.
+lost in crowds. Even though they know exactly what their parents look
+like, it only takes a few minutes of distraction and noise for them
+for them to get lost. And, just like in that analogy, getting lost on
+the web can lead to terrifying outcomes---look at our attention span
+lifespan, for starters.
 
 Assuming the premise "signal is harder to make than noise" holds, it
 is only natural for there to be more noise on the web.
