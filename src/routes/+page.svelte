@@ -3,10 +3,6 @@
 </script>
 
 <div class="container">
-	<header>
-		<h1>Diego Rodriguez</h1>
-	</header>
-
 	<main>
 		<h2>So, what do you do?</h2>
 
@@ -41,7 +37,7 @@
 
 		<p>That's what I do.</p>
 
-		<hr />
+		<hr class="divider" />
 
 		<p>
 			I currently live in California and work at
@@ -55,3 +51,17 @@
 		</ul>
 	</aside>
 </div>
+
+<style>
+	.container {
+		display: grid;
+		width: 100%;
+		place-items: center;
+	}
+
+	.divider {
+		height: 1px;
+		background-color: #00000022;
+		border: none;
+	}
+</style>
