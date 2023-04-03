@@ -24,8 +24,8 @@
 		<p>And that's good.</p>
 
 		<p>
-			A great predictor of optimality is time resistance; sometimes, if something works for a long
-			time, it will (probably) continue to do so. User interfaces are no exception.
+			A great predictor of optimality is time resistance; if something works for a long time, it
+			will—probably—continue to do so. User interfaces are no exception.
 		</p>
 
 		<p>But.</p>
