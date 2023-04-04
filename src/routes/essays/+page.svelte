@@ -11,7 +11,7 @@
 		<details open={i === 0}>
 			<summary
 				>{essay.title}
-				<span><a class="src-link" href={essay.source}>(view source)</a></span>
+				<span><a class="src-link" href={'/src' + essay.source}>(view source)</a></span>
 			</summary>
 			<section>
 				{#each essay.paragraphs as paragraph}
