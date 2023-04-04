@@ -44,12 +44,6 @@
 			<a href="https://www.twitter.com/krea_ai" target="_blank">KREA</a>.
 		</p>
 	</main>
-
-	<aside>
-		<ul>
-			<li><a href="https://twitter.com/asciidiego" target="_blank">Twitter</a></li>
-		</ul>
-	</aside>
 </div>
 
 <style>
