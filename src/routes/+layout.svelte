@@ -1,15 +1,37 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import './styles.css';
 
-	const routes = [
+	type MenuLink = {
+		type: 'link';
+		id: string;
+		title: string;
+	};
+	type MenuDivider = {
+		id: string;
+		type: 'divider';
+	};
+	type MenuItem = MenuLink | MenuDivider;
+
+	const menuItems: MenuItem[] = [
 		{
+			type: 'link',
 			id: '/',
 			title: 'Home'
 		},
 		{
+			type: 'link',
 			id: '/essays',
 			title: 'Essays'
+		},
+		{
+			type: 'divider',
+			id: 'divider-1'
+		},
+		{
+			type: 'link',
+			id: 'https://twitter.com/asciidiego',
+			title: 'Twitter'
 		}
 	];
 </script>
@@ -17,14 +39,18 @@
 <header style="text-align: center">
 	<h1>Diego Rodriguez</h1>
 	<ul>
-		{#each routes as route (route.id)}
-			<li>
-				{#if $page.route.id === route.id}
-					{route.title}
-				{:else}
-					<a href={route.id}>{route.title}</a>
-				{/if}
-			</li>
+		{#each menuItems as item (item.id)}
+			{#if item.type === 'link'}
+				<li>
+					{#if $page.route.id === item.id}
+						{item.title}
+					{:else}
+						<a href={item.id}>{item.title}</a>
+					{/if}
+				</li>
+			{:else if item.type === 'divider'}
+				<li style="font-weight: normal; color: #00000066;">•</li>
+			{/if}
 		{/each}
 	</ul>
 </header>
