@@ -29,12 +29,16 @@ export const load: PageServerLoad = async ({ params, fetch }) => {
 		doc.nodes.forEach((node: any) => {
 			if (node.type !== 'paragraph') return;
 			// keep traversing until we find a node with `value` property
-			let value = node.value;
-			while (!value) {
-				value = node.children[0]?.value;
+			let paragraph = node.value;
+			while (!paragraph) {
+				paragraph = node.children[0]?.value;
 				node = node.children[0];
 			}
-			paragraphs.push(value);
+
+			// extra parsing
+			const withDashes = (str: string) => str.replace(/\-\-\-/g, '—').replace(/\-\-/g, '–');
+
+			paragraphs.push(withDashes(paragraph));
 		});
 
 		essays.push({
