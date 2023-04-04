@@ -14,15 +14,13 @@ type Essay = {
 export const ssr = true;
 export const prerender = true;
 export const load: PageServerLoad = async ({ params, fetch }) => {
-	let essays: Essay[] = [];
-	console.log(PUBLISHED_ESSAYS_PATHS);
-	for (const path of PUBLISHED_ESSAYS_PATHS) {
-		let lastEdited = null;
-		const essay = await fetch(path).then((r) => {
-			lastEdited = r.headers.get('last-modified');
-			return r.text();
-		});
-		const doc = parser.parse(essay);
+	const essays: Essay[] = [];
+	for (const essayPath of PUBLISHED_ESSAYS_PATHS) {
+		const essay = await fetch(essayPath).then(async (r) => ({
+			content: await r.text(),
+			metadata: { lastModified: r.headers.get('last-modified') }
+		}));
+		const doc = parser.parse(essay.content);
 
 		// traverse the tree and extract the paragraphs
 		const paragraphs = [] as string[];
@@ -42,10 +40,13 @@ export const load: PageServerLoad = async ({ params, fetch }) => {
 		});
 
 		essays.push({
+			// Metadata
 			title: doc.title,
-			paragraphs,
-			lastEdited,
-			source: path
+			lastEdited: essay.metadata.lastModified,
+			source: essayPath,
+
+			// Content
+			paragraphs
 		});
 	}
 
