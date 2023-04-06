@@ -43,13 +43,13 @@
 			{#if item.type === 'link'}
 				<li>
 					{#if $page.route.id === item.id}
-						{item.title}
+						<span class="underline">{item.title}</span>
 					{:else}
 						<a href={item.id}>{item.title}</a>
 					{/if}
 				</li>
 			{:else if item.type === 'divider'}
-				<li style="font-weight: normal; color: #00000066;">•</li>
+				<li style="font-weight: normal; color: #000000AA;">•</li>
 			{/if}
 		{/each}
 	</ul>
@@ -74,11 +74,15 @@
 	}
 
 	li a {
-		color: #00000066;
+		color: #000;
 		text-decoration: none;
 	}
 
 	li a:hover {
+		text-decoration: underline;
+	}
+
+	.underline {
 		text-decoration: underline;
 	}
 </style>
