@@ -8,7 +8,6 @@
 		title: string;
 	};
 	type MenuDivider = {
-		id: string;
 		type: 'divider';
 	};
 	type MenuItem = MenuLink | MenuDivider;
@@ -25,45 +24,45 @@
 			title: 'Essays'
 		},
 		{
-			type: 'divider',
-			id: 'divider-1'
+			type: 'divider'
 		},
 		{
 			type: 'link',
 			id: 'https://twitter.com/asciidiego',
-			title: 'Twitter'
+			title: 't'
 		}
 	];
 </script>
 
-<header style="text-align: center">
-	<h1>Diego Rodriguez</h1>
-	<ul>
-		{#each menuItems as item (item.id)}
-			{#if item.type === 'link'}
-				<li>
-					{#if $page.route.id === item.id}
-						<span class="underline">{item.title}</span>
-					{:else}
-						<a href={item.id}>{item.title}</a>
-					{/if}
-				</li>
-			{:else if item.type === 'divider'}
-				<li style="font-weight: normal; color: #000000AA;">•</li>
-			{/if}
-		{/each}
-	</ul>
-</header>
+<div class="root">
+	<aside class="left-menu">
+		<h1>Diego Rodriguez</h1>
+		<ul>
+			{#each menuItems as item, index (item.id ?? index)}
+				{#if item.type === 'link'}
+					<li>
+						{#if $page.route.id === item.id}
+							<span class="underline">{item.title}</span>
+						{:else}
+							<a href={item.id}>{item.title}</a>
+						{/if}
+					</li>
+				{:else if item.type === 'divider'}
+					<li style="width: 16px"><hr /></li>
+				{/if}
+			{/each}
+		</ul>
+	</aside>
 
-<slot />
+	<slot />
+</div>
 
 <style>
 	/* Make horizontal */
 	ul {
 		list-style: none;
 		padding: 0;
-		margin: 0;
-		display: flex;
+		/* display: flex; */
 		justify-content: center;
 		gap: 1em;
 	}
@@ -84,5 +83,14 @@
 
 	.underline {
 		text-decoration: underline;
+	}
+
+	.root {
+		display: flex;
+	}
+
+	.left-menu {
+		width: 128px;
+		padding: 0 2em 0em 0em;
 	}
 </style>

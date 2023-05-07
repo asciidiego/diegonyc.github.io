@@ -9,8 +9,8 @@
 <main>
 	{#each essays as essay, i}
 		<details open={i === 0}>
-			<summary
-				>{essay.title}
+			<summary>
+				<span>{essay.title}</span>
 				<span><a class="src-link" href={'/src' + essay.source}>(view source)</a></span>
 			</summary>
 			<section>
@@ -30,7 +30,8 @@
 	summary {
 		font-size: 1.2em;
 		font-weight: bold;
-		margin-bottom: 0.5em;
+		margin: 0;
+		width: 100%;
 		user-select: none;
 		cursor: pointer;
 	}
