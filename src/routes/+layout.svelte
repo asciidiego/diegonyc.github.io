@@ -10,7 +10,10 @@
 	type MenuDivider = {
 		type: 'divider';
 	};
-	type MenuItem = MenuLink | MenuDivider;
+	type InvisibleItem = {
+		type: 'invisible';
+	} & Record<string, any>;
+	type MenuItem = MenuLink | MenuDivider | InvisibleItem;
 
 	const menuItems: MenuItem[] = [
 		{
@@ -24,8 +27,13 @@
 			title: 'Essays'
 		},
 		{
-			type: 'divider'
+			type: 'invisible',
+			id: '/write',
+			title: 'Write'
 		},
+
+		{ type: 'divider' },
+
 		{
 			type: 'link',
 			id: 'https://twitter.com/asciidiego',
@@ -87,6 +95,8 @@
 
 	.root {
 		display: flex;
+		width: 100%;
+		height: 100%;
 	}
 
 	.left-menu {
