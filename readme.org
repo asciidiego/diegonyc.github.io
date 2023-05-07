@@ -3,3 +3,9 @@
 #+AUTHOR: Diego Rodriguez
 
 Welcome to the source of my site.
+
+** How to use it
+
+1. Clone the repository
+1. Write an essay.
+1. Append the path to the essay to the variable `PUBLISHED_ESSAYS_PATHS` in `essays.ts`.
