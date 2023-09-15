@@ -19,7 +19,6 @@
 						<li>New York City;</li>
 						<li>Barcelona;</li>
 						<li>and Maracaibo.</li>
-						<li style="font-style: italic;">In reverse order.</li>
 					</ul>
 				</li>
 			</ul>
