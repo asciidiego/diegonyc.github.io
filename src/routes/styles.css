@@ -1,71 +1,19 @@
-/* Use Apple Garamond font */
-h1 {
-	font-family: 'Apple Garamond', 'Georgia', sans-serif;
-	font-size: 2em;
-	/* Adjust kerning */
-}
+/* Global styles here */
 
-body {
-	/* Around 80 characters per line */
-	max-width: 80ch;
-	font-family: 'Garamond', 'Georgia', sans-serif;
-	font-size: 1em;
+@font-face {
+  font-family: 'Ivar Display Hydro';
+  src: url(fonts/IvarDisplayHydro-Regular.ttf);
 }
 
 @font-face {
-	font-family: apple garamond;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Apple Garamond'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond.woff) format('woff');
-	font-display: swap;
-}
-@font-face {
-	font-family: apple garamond;
-	font-style: italic;
-	font-weight: 400;
-	src: local('Apple Garamond'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond-Italic.woff) format('woff');
-	font-display: swap;
-}
-@font-face {
-	font-family: apple garamond;
-	font-style: normal;
-	font-weight: 700;
-	src: local('Apple Garamond'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond-Bold.woff) format('woff');
-	font-display: swap;
-}
-@font-face {
-	font-family: apple garamond;
-	font-style: italic;
-	font-weight: 700;
-	src: local('Apple Garamond'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond-BoldItalic.woff) format('woff');
-	font-display: swap;
-}
-@font-face {
-	font-family: apple garamond light;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Apple Garamond Light'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond-Light.woff) format('woff');
-	font-display: swap;
-}
-@font-face {
-	font-family: apple garamond light;
-	font-style: italic;
-	font-weight: 400;
-	src: local('Apple Garamond Light'),
-		url(https://fonts.cdnfonts.com/s/8857/AppleGaramond-LightItalic.woff) format('woff');
-	font-display: swap;
+  font-family: 'Ivar Hydro';
+  font-weight: 400;
+  src: url(fonts/IvarTextHydro-Regular.ttf);
 }
 
 @font-face {
-	font-family: garamond;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Garamond'),
-		url(https://fonts.cdnfonts.com/s/14537/garamond_[allfont.ru].woff) format('woff');
-	font-display: swap;
+  font-family: 'Ivar Hydro';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/IvarTextHydro-Italic.ttf);
 }
