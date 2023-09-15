@@ -2,18 +2,18 @@
 
 @font-face {
   font-family: 'Ivar Display Hydro';
-  src: url(fonts/IvarDisplayHydro-Regular.ttf);
+  src: url(/fonts/IvarDisplayHydro-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Ivar Hydro';
   font-weight: 400;
-  src: url(fonts/IvarTextHydro-Regular.ttf);
+  src: url(/fonts/IvarTextHydro-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Ivar Hydro';
   font-style: italic;
   font-weight: 400;
-  src: url(fonts/IvarTextHydro-Italic.ttf);
+  src: url(/fonts/IvarTextHydro-Italic.ttf);
 }
