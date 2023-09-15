@@ -59,7 +59,7 @@
 			<a href="mailto:d@krea.ai">d@krea.ai</a><span>.</span>
 		</p>
 
-		You <span style="font-style: italic;">can</span> find me on Twitter; I'm still exploring the role
+		You <span style="font-style: italic;">can</span> find me on <a href="http://x.com/asciidiego">Twitter</a>; I'm still exploring the role
 		of social media in my life.
 	</main>
 </div>
