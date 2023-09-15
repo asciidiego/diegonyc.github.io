@@ -31,7 +31,7 @@
 
 			<li>
 				I <span style="font-style: italic;">work</span> at
-				<a href="krea.ai" target="_blank">KREA</a>. A design tool with AI inside.
+				<a href="https://www.krea.ai/" target="_blank">KREA</a>. A design tool with AI inside.
 			</li>
 
 			<li>
