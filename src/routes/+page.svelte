@@ -43,11 +43,11 @@
 		<p>As you may have guessed by the name of this page, I like computers.</p>
 
 		<p>
-			Like humans, they can be fun (and boring), powerful, (and weak), and pleasing (and
-			frustrating).
+			Like humans, they can be fun, powerful, and pleasing. But they can also be boring, weak, and
+			frustrating.
 		</p>
 
-		<p>Can they be creative and loving though?</p>
+		<p>Now, can they be creative and loving though?</p>
 
 		<p>I don't know yet. But we'll find out soon.</p>
 
@@ -58,8 +58,8 @@
 			<a href="mailto:d@krea.ai">d@krea.ai</a><span>.</span>
 		</p>
 
-		You <span style="font-style: italic;">can</span> find me on <a href="http://x.com/asciidiego">Twitter</a>; I'm still exploring the role
-		of social media in my life.
+		You can find me on
+		<a href="http://x.com/asciidiego">Twitter</a>.
 	</main>
 </div>
 
