@@ -1,0 +1,89 @@
+#+title: Clear The Dependencies
+#+author: Diego V. Rodriguez
+
+* Dependencies
+
+  If you ask senior software engineers about dangers of software, some
+  will say dependencies.  The problem with dependencies is that, well,
+  they make you dependent on somebody.  When you are using third-party
+  software, this could become a problem for many reasons. For example,
+  the software could rot[fn:1], stop working, or have security
+  vulnerabilities.
+  
+  Just like minimizing dependencies is a great software design
+  principle, it can be applied among other axis of life.  Let us talk
+  about subscriptions.
+
+* Subscriptions
+
+  Today, we rent [[https://spotify.com/][a]] [[https://www.icloud.com/][lot]] [[https://netflix.com/][of]] [[https://www.amazon.com/amazonprime][stuff]]. This can become a problem. For one,
+  you become dependent on the system. This is not that bad; after all,
+  we depend on electricity or the Internet. I will not focus that much
+  on miniziming dependencies for the sake of freedom, although that
+  topic is an essay in and of itself[fn:2]. However, the part that I
+  am interested is in the simplicity and wealth gains achieved from
+  indepence.
+
+  While independency is often /harder/ than its counterpart, it can
+  make our lives /simpler/.[fn:3] Not only that, it can increase our
+  flexibility as well.  Of course, great gains such as simplicity,
+  wealth, and flexibility do not come for free.
+  
+* Modern subscriptions: a case study
+
+  Today, many people like me use Netflix, Spotify and iCloud. iCloud
+  is around ~1$ a month, Spotify (and Netflix) is around $10.  This is
+  amazing.  For that amount, we can be paying for a virtual private
+  server with 4GB of RAM, 4 CPU cores, 100GB in SSD, and 4 TB of
+  bandwidth a month. This is more than enough to setup many software
+  services such as our own cloud, movie, music server, and anything
+  that you feel like using really.
+
+  Of course, none of this is going to be /easy/ in the strict sense of
+  the word. However, the benefits seem worth it. You will not only
+  develop independence, but also skills in the process. In fact, the
+  skills you would be developing in the process of doing this are
+  probably enough to never be jobless in, at least, a decade.
+
+  Developing the softwares that I mentioned require knowledge about
+  the Internet network, some knowledge about the GNU/Linux operating
+  system (or similar variants), and---depending on how far you would
+  like to go--even programming languages.  And also, if you have a
+  business, you can deduct all of this tax-wise. And we are not even
+  talking about the potential to leverage your skills to offer new
+  services to others that are unwilling to take the simple---but
+  harder--path of independence.
+
+  During years I have been struggling with coming up with ideas to
+  build.  The reason is that I earn enough money, live in a
+  first-world country, and I live with my mom.  This eliminates the
+  incentives to build from my ancestor genes.  Is not that I am unable
+  to build and create new things, it is simple unnecessary for me to
+  innovate.  The reason is comformity.
+
+  The problem with comformity is not apparent until you start to
+  notice how your brain rots.  You know how the saying goes...
+
+  #+BEGIN_CENTER
+  Either you use it,\\
+  or you lose it.[fn:4]
+  #+END_CENTER
+
+** Simplicity
+
+** Flexibility
+
+** Wealth
+
+* Footnotes
+
+[fn:4] [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191246/][Use it or lose it: how neurogenesis keeps the brain fit]]. 
+
+[fn:3] [PENDING: link to =Simple vs Easy vs Hard vs Complex= ].
+
+[fn:2] In fact, there are [[https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA][YouTube channels]] devoted only to that topic. 
+
+[fn:1] Software rotting---the deterioration of software over
+time---can happen for many reasons. However, some software rots at an
+incredible slow rate (such as =ls= from GNUCoreUtils or the Linux
+kernel itself).
